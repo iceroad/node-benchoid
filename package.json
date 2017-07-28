@@ -1,0 +1,29 @@
+{
+  "name": "benchoid",
+  "version": "0.1.0",
+  "description": "Cloud benchmarking framework for Amazon AWS",
+  "main": "lib/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iceroad/node-benchoid.git"
+  },
+  "author": "Mayank Lahiri <mayank@iceroad.io>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "aws-sdk": "^2.92.0",
+    "chalk": "^2.0.1",
+    "colors": "^1.1.2",
+    "fs-extra": "^4.0.0",
+    "genesis-device": "^0.1.1",
+    "inquirer": "^3.2.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "pug": "^2.0.0-rc.2",
+    "runtype": "^0.2.3",
+    "temp": "^0.8.3"
+  }
+}

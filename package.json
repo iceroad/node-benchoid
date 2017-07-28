@@ -1,8 +1,11 @@
 {
   "name": "benchoid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cloud benchmarking framework for Amazon AWS",
   "main": "lib/cli.js",
+  "bin": {
+    "benchoid": "lib/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

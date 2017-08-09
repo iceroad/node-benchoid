@@ -1,5 +1,6 @@
 {
   "name": "benchoid",
+  "title": "Benchoid Benchmarking Framework",
   "version": "0.1.1",
   "description": "Cloud benchmarking framework for Amazon AWS",
   "main": "lib/cli.js",
@@ -17,16 +18,17 @@
   "license": "MIT",
   "dependencies": {
     "async": "^2.5.0",
-    "aws-sdk": "^2.92.0",
-    "chalk": "^2.0.1",
+    "aws-sdk": "^2.95.0",
+    "chalk": "^2.1.0",
     "colors": "^1.1.2",
-    "fs-extra": "^4.0.0",
+    "fs-extra": "^4.0.1",
     "genesis-device": "^0.1.1",
     "inquirer": "^3.2.1",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",
-    "pug": "^2.0.0-rc.2",
+    "pug": "^2.0.0-rc.3",
     "runtype": "^0.2.3",
+    "strip-ansi": "^4.0.0",
     "temp": "^0.8.3"
   }
 }

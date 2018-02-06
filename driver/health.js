@@ -1,7 +1,6 @@
 const _ = require('lodash'),
   cpuUsage = require('./cpu-usage'),
   os = require('os')
-;
 
 function health(children) {
   console.log(JSON.stringify({
@@ -14,9 +13,9 @@ function health(children) {
       cpuUsage: cpuUsage(),
       memUsage: 1.0 - (os.freemem() / os.totalmem()),
     },
-  }));
+  }))
 
-  setTimeout(() => health(children), 5000);
+  setTimeout(() => health(children), 5000)
 }
 
-module.exports = health;
+module.exports = health

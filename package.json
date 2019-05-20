@@ -1,14 +1,14 @@
 {
   "name": "benchoid",
-  "title": "A cloud benchmarking framework",
-  "version": "0.1.4",
-  "description": "Distributed cloud benchmarking using Terraform and Amazon EC2.",
+  "title": "A generic cloud benchmarking framework using Terraform.",
+  "version": "1.0.0",
+  "description": "Benchmark server software by generating simulated traffic from multiple VMs.",
   "main": "lib/cli.js",
   "bin": {
     "benchoid": "bin/benchoid"
   },
   "engines": {
-    "node": ">=8.9.3"
+    "node": ">=12.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,25 +20,25 @@
     "url": "git@github.com:iceroad/node-benchoid.git"
   },
   "author": "Mayank Lahiri <mayank@iceroad.io>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
-    "async": "^2.6.0",
-    "aws-sdk": "^2.189.0",
-    "chalk": "^2.3.0",
-    "colors": "^1.1.2",
-    "commander": "^2.14.0",
-    "fs-extra": "^5.0.0",
-    "genesis-device": "^0.1.1",
-    "inquirer": "^5.1.0",
-    "lodash": "^4.17.5",
-    "pug": "^2.0.0-rc.4",
+    "async": "^3.0.0",
+    "aws-sdk": "^2.458.0",
+    "chalk": "^2.4.2",
+    "colors": "^1.3.3",
+    "commander": "^2.20.0",
+    "fs-extra": "^8.0.1",
+    "genesis-device": "^0.1.4",
+    "inquirer": "^6.3.1",
+    "lodash": "^4.17.11",
+    "pug": "^2.0.3",
     "runtype": "^0.2.3",
-    "strip-ansi": "^4.0.0",
-    "temp": "^0.8.3"
+    "strip-ansi": "^5.2.0",
+    "temp": "^0.9.0"
   },
   "devDependencies": {
-    "eslint": "^4.17.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2"
   }
 }
